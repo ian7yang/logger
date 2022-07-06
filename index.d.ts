@@ -6,5 +6,5 @@ interface LogOptions {
     filename?: string;
     rotate?: boolean;
 }
-export default function getLogger(logOptions: LogOptions, rotateOptions: DailyRotateFileTransportOptions): winston.Logger;
+export default function getLogger(logOptions: LogOptions): winston.Logger;
 export {};

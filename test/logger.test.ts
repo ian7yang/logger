@@ -1,4 +1,4 @@
-import getLogger from '../logger';
+import getLogger from '../index';
 import * as winston from 'winston';
 
 describe('loggers', () => {
