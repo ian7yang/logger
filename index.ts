@@ -44,7 +44,7 @@ export default function getLogger(logOptions?: LogOptions) {
                 level,
                 format: format.combine(format.json()),
             }
-            const rotateOptions = rotate ? defaultRotateOptions : {...defaultLogOptions, ...rotate};
+            const rotateOptions =  rotate === true ? defaultRotateOptions : {...defaultLogOptions, ...rotate};
             const rotateTransport = new winston.transports.DailyRotateFile(rotateOptions as DailyRotateFileTransportOptions);
             transports.push(rotateTransport);
         } else {
