@@ -1,6 +1,6 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "@ian.yang/logger",
+  "version": "0.0.1",
   "description": "winston logger wrapper",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,17 @@
     "jest": "^28.1.1",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
-  }
+  },
+  "types": "./index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian7yang/logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ian7yang/logger/issues"
+  },
+  "homepage": "https://github.com/ian7yang/logger#readme"
 }
